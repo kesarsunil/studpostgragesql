@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+
+# Local databases & env files
+*.db
+backend/attendance_dev.db
+.env.local
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
